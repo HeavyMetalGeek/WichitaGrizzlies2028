@@ -1,0 +1,87 @@
+@include mediaSm {
+  body {
+    padding-top: 10vh;
+  }
+
+  .header {
+    .header-text {
+      width: 90%;
+    }
+  }
+  .main-text {
+    font-size: 2rem;
+  }
+  .secondary-text {
+    font-size: 0.6rem;
+  }
+  .btn-bar {
+    flex-direction: column;
+    align-items: center;
+    .btn-first,
+    .btn,
+    .btn-last {
+      border-radius: $btn-border-radius;
+      border-width: $btn-border-width;
+      width: 200px;
+    }
+  }
+}
+@include mediaMd {
+  body {
+    padding-top: 10vh;
+  }
+  .header {
+    .header-text {
+      width: 90%;
+    }
+  }
+  .main-text {
+    font-size: 2.8rem;
+  }
+  .secondary-text {
+    font-size: 0.8rem;
+  }
+  .btn-bar {
+    flex-direction: column;
+    align-items: center;
+    .btn-first,
+    .btn,
+    .btn-last {
+      border-radius: $btn-border-radius;
+      border-width: $btn-border-width;
+      width: 200px;
+    }
+  }
+}
+@include mediaLg {
+  body {
+    padding-top: 15vh;
+  }
+  .header {
+    .header-text {
+      width: 80%;
+    }
+  }
+  .main-text {
+    font-size: 4rem;
+  }
+  .secondary-text {
+    font-size: 1rem;
+  }
+}
+@include mediaXl {
+  body {
+    padding-top: 15vh;
+  }
+  .header {
+    .header-text {
+      width: 70%;
+    }
+  }
+  .main-text {
+    font-size: 4rem;
+  }
+  .secondary-text {
+    font-size: 1rem;
+  }
+}

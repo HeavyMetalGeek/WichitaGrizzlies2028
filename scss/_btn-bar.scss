@@ -1,0 +1,44 @@
+@mixin set-btn-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  .btn-first,
+  .btn,
+  .btn-last {
+    width: $btn-width;
+    border-color: $btn-border-color;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    color: $btn-txt-color;
+
+    &:hover {
+      background: $btn-hover-color;
+      color: black;
+    }
+  }
+  .btn-first {
+    border-top-width: $btn-border-width;
+    border-right-width: 0.5 * $btn-border-width;
+    border-bottom-width: $btn-border-width;
+    border-left-width: $btn-border-width;
+    border-style: solid;
+    border-radius: $btn-border-radius 0px 0px $btn-border-radius;
+  }
+  .btn {
+    border-top-width: $btn-border-width;
+    border-right-width: 0.5 * $btn-border-width;
+    border-bottom-width: $btn-border-width;
+    border-left-width: 0.5 * $btn-border-width;
+    border-style: solid;
+    border-radius: 0px;
+  }
+  .btn-last {
+    border-top-width: $btn-border-width;
+    border-right-width: $btn-border-width;
+    border-bottom-width: $btn-border-width;
+    border-left-width: 0.5 * $btn-border-width;
+    border-style: solid;
+    border-radius: 0px $btn-border-radius $btn-border-radius 0px;
+  }
+}
