@@ -12,9 +12,11 @@
     font-weight: bold;
     color: $btn-txt-color;
 
-    &:hover {
+    &:hover,
+    &:focus {
       background: $btn-hover-color;
       color: black;
+      cursor: pointer;
     }
   }
   .btn-first {

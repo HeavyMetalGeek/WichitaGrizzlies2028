@@ -1,7 +1,8 @@
-@import "config";
-@import "background";
-@import "btn-bar";
-@import url("https://fonts.googleapis.com/css?family=Cinzel:700,900|Permanent+Marker");
+@import url('https://fonts.googleapis.com/css?family=Cinzel:900|Permanent+Marker|Oswald');
+@import 'config';
+@import 'background';
+@import 'btn-bar';
+@import 'modal';
 
 * {
   margin: 0;
@@ -49,7 +50,7 @@ body {
   color: $main-txt-color;
   text-align: center;
   font-size: 4rem;
-  font-family: "Cinzel", serif;
+  font-family: 'Cinzel', serif;
   //border: 1px solid cyan;
 }
 
@@ -60,7 +61,7 @@ body {
   color: $secondary-txt-color;
   text-align: center;
   font-size: 1rem;
-  font-family: "Permanent Marker", cursive;
+  font-family: 'Permanent Marker', cursive;
 }
 
 .leader-top {
@@ -93,4 +94,4 @@ body {
   @include set-btn-bar;
 }
 
-@import "mobile";
+@import 'mobile';

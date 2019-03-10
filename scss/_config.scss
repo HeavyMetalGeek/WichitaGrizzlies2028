@@ -1,15 +1,23 @@
-$home-bg-img: url("../img/charge.png");
-$home-bg-overlay: rgb(51, 51, 146);
+$home-bg-img: url('../img/charge.png');
+//$home-bg-overlay: rgb(51, 51, 146);
+$home-bg-overlay: #001564;
 $home-bg-opacity: 0.7;
+
 $main-txt-color: yellow;
 $secondary-txt-color: white;
+
 $btn-width: 100px;
 $btn-border-color: white;
 $btn-border-width: 2px;
 $btn-border-radius: 5px;
 $btn-hover-color: yellow;
 $btn-txt-color: white;
+
 $header-border-color: white;
+
+$modal-color: #428bca;
+$modal-duration: 0.5s;
+$modal-header-font-size: 2rem;
 
 @mixin mediaSm {
   @media screen and (max-width: 500px) {

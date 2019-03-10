@@ -25,7 +25,21 @@
       width: 200px;
     }
   }
+  .modal-content {
+    width: 90%;
+    margin: 10vh auto;
+    .modal-header {
+      padding: 10px;
+      font-size: 1rem;
+    }
+    .btn-close {
+      top: 0px;
+      right: 10px;
+      font-size: 2rem;
+    }
+  }
 }
+
 @include mediaMd {
   body {
     padding-top: 10vh;
@@ -52,7 +66,22 @@
       width: 200px;
     }
   }
+
+  .modal-content {
+    width: 90%;
+    margin: 10vh auto;
+    .modal-header {
+      padding: 15px;
+      font-size: 1.5rem;
+    }
+    .btn-close {
+      top: 0px;
+      right: 10px;
+      font-size: 2.5rem;
+    }
+  }
 }
+
 @include mediaLg {
   body {
     padding-top: 15vh;
@@ -68,7 +97,22 @@
   .secondary-text {
     font-size: 1rem;
   }
+
+  .modal-content {
+    width: 80%;
+    margin: 10vh auto;
+    .modal-header {
+      padding: 15px;
+      font-size: 2rem;
+    }
+    .btn-close {
+      top: 0px;
+      right: 10px;
+      font-size: 3rem;
+    }
+  }
 }
+
 @include mediaXl {
   body {
     padding-top: 15vh;
@@ -82,6 +126,20 @@
     font-size: 4rem;
   }
   .secondary-text {
-    font-size: 1rem;
+    font-size: 1.5rem;
+  }
+
+  .modal-content {
+    width: 70%;
+    margin: 10vh auto;
+    .modal-header {
+      padding: 15px;
+      font-size: 2rem;
+    }
+    .btn-close {
+      top: 0px;
+      right: 10px;
+      font-size: 3rem;
+    }
   }
 }

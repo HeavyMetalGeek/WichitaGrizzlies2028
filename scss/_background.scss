@@ -1,11 +1,11 @@
 @mixin background {
   background: $home-bg-img;
   background-attachment: fixed;
-  background-position:center;
+  background-position: center;
   background-size: cover;
 
   &:after {
-    content: "";
+    content: '';
     background: $home-bg-overlay;
     position: fixed;
     width: 100%;

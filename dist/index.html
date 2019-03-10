@@ -30,10 +30,86 @@
       <div class="leader-right"></div>
     </div>
     <div class="btn-bar">
-      <div class="btn-first">BUTTON1</div>
-      <div class="btn">BUTTON2</div>
-      <div class="btn">BUTTON3</div>
-      <div class="btn-last">BUTTON4</div>
+      <div id="button1" class="btn-first">WELCOME</div>
+      <div id="button2" class="btn">NEWS</div>
+      <div id="button3" class="btn">SCHEDULE</div>
+      <div id="button4" class="btn-last">CONTACT</div>
+    </div>
+    <!-- MODALS -->
+    <div id="button1-modal" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <span id="button1-close" class="btn-close">&times;</span>
+          <h2>Welcome</h2>
+        </div>
+        <div class="modal-body">
+          <img src="img/huddle.png" alt="IMAGE_HUDDLE" />
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem
+            delectus iure commodi excepturi? Debitis quisquam vel corporis iusto
+            nemo suscipit placeat natus quaerat nobis eveniet adipisci, quo nam
+            veritatis totam.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="button2-modal" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <span id="button2-close" class="btn-close">&times;</span>
+          <h2>News</h2>
+        </div>
+        <div class="modal-body">
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem
+            delectus iure commodi excepturi? Debitis quisquam vel corporis iusto
+            nemo suscipit placeat natus quaerat nobis eveniet adipisci, quo nam
+            veritatis totam.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="button3-modal" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <span id="button3-close" class="btn-close">&times;</span>
+          <h2>Schedule</h2>
+        </div>
+        <div class="modal-body">
+          <iframe
+            id="calendar"
+            src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=9ngg77gbse19jd6od3mo929tkg%40group.calendar.google.com&amp;color=%235F6B02&amp;ctz=America%2FChicago"
+            style="border-width:0"
+            height="600"
+            frameborder="0"
+            scrolling="no"
+          ></iframe>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem
+            delectus iure commodi excepturi? Debitis quisquam vel corporis iusto
+            nemo suscipit placeat natus quaerat nobis eveniet adipisci, quo nam
+            veritatis totam.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="button4-modal" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <span id="button4-close" class="btn-close">&times;</span>
+          <h2>Contact</h2>
+        </div>
+        <div class="modal-body">
+          <a href="mailto:test@example.com">MAIL ME</a>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem
+            delectus iure commodi excepturi? Debitis quisquam vel corporis iusto
+            nemo suscipit placeat natus quaerat nobis eveniet adipisci, quo nam
+            veritatis totam.
+          </p>
+        </div>
+      </div>
     </div>
   </body>
+  <script src="js/modal.js"></script>
 </html>
