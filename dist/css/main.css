@@ -52,6 +52,28 @@
     color: #000;
     text-decoration: none;
     cursor: pointer; }
+  .modal-content .entry-title {
+    font-family: 'Cinzel', serif; }
+  .modal-content .entry-text {
+    padding-left: 20px; }
+  .modal-content .entry-spacer {
+    padding-top: 20px; }
+  .modal-content .contacts td {
+    padding-bottom: 10px; }
+  .modal-content .contact-photo {
+    text-align: center;
+    width: 50px;
+    height: auto; }
+  .modal-content .contact-title {
+    text-align: center;
+    padding: 0 15px;
+    font-weight: 600; }
+  .modal-content .contact-name {
+    text-align: center;
+    padding: 0 15px; }
+  .modal-content .contact-email {
+    text-align: center;
+    padding: 0 15px; }
 
 @keyframes modelopen {
   from {

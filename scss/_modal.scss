@@ -71,6 +71,45 @@
     text-decoration: none;
     cursor: pointer;
   }
+
+  .entry-title {
+    font-family: 'Cinzel', serif;
+  }
+
+  .entry-text {
+    padding-left: 20px;
+  }
+
+  .entry-spacer {
+    padding-top: 20px;
+  }
+
+  .contacts td {
+    padding-bottom: 10px;
+    //text-align: left;
+  }
+
+  .contact-photo {
+    text-align: center;
+    width: 50px;
+    height: auto;
+  }
+
+  .contact-title {
+    text-align: center;
+    padding: 0 15px;
+    font-weight: 600;
+  }
+
+  .contact-name {
+    text-align: center;
+    padding: 0 15px;
+  }
+
+  .contact-email {
+    text-align: center;
+    padding: 0 15px;
+  }
 }
 
 @keyframes modelopen {
