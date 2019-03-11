@@ -7,15 +7,26 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html {
   font-size: 16px;
+  height: 100%;
 }
 
 body {
   @include background;
   padding-top: 20vh;
+}
+
+.wrapper {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: calc(100% - #{$footer-height});
+  overflow: hidden;
 }
 
 .logo {
@@ -92,6 +103,16 @@ body {
 
 .btn-bar {
   @include set-btn-bar;
+}
+
+.main-footer{
+  display: flex;
+  flex-direction: row;
+  height: $footer-height;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: white;
 }
 
 @import 'mobile';
