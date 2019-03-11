@@ -83,21 +83,17 @@
 
 * {
   margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
+  padding: 0; }
 
 html {
-  font-size: 16px;
-  height: 100%; }
+  font-size: 16px; }
 
 body {
-  background-image: url("../img/charge.png");
-  background-repeat: no-repeat;
-  background-position: center center;
+  background: url("../img/charge.png");
   background-attachment: fixed;
+  background-position: center;
   background-size: cover;
-  height: 100%;
-  overflow: hidden;
+  background-repeat: no-repeat;
   padding-top: 20vh; }
   body:after {
     content: '';
@@ -178,7 +174,7 @@ body {
   .btn-bar .btn-first,
   .btn-bar .btn,
   .btn-bar .btn-last {
-    width: 150px;
+    width: 100px;
     border-color: white;
     text-align: center;
     padding: 10px;
