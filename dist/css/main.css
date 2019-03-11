@@ -83,18 +83,21 @@
 
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  box-sizing: border-box; }
 
 html {
   font-size: 16px;
   height: 100%; }
 
 body {
-  background: url("../img/charge.png");
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
+  background-image: url("../img/charge.png");
   background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
   padding-top: 20vh; }
   body:after {
     content: '';
@@ -114,7 +117,7 @@ body {
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
-  min-height: calc(100% - 60px);
+  min-height: calc(100% - 30px);
   overflow: hidden; }
 
 .logo {
@@ -183,7 +186,7 @@ body {
   .btn-bar .btn-first,
   .btn-bar .btn,
   .btn-bar .btn-last {
-    width: 100px;
+    width: 150px;
     border-color: white;
     text-align: center;
     padding: 10px;
@@ -222,7 +225,7 @@ body {
 .main-footer {
   display: flex;
   flex-direction: row;
-  height: 60px;
+  height: 30px;
   align-items: center;
   text-align: center;
   justify-content: center;
