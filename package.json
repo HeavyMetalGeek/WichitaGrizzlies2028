@@ -12,5 +12,8 @@
   "homepage": "fatirishman53.github.io/WichitaGrizzlies2028",
   "dependencies": {
     "node-sass": "^4.11.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
   }
 }
