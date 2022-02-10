@@ -11,7 +11,7 @@
   "license": "ISC",
   "homepage": "fatirishman53.github.io/WichitaGrizzlies2028",
   "dependencies": {
-    "node-sass": "^4.11.0"
+    "node-sass": "^7.0.0"
   },
   "devDependencies": {
     "gh-pages": "^2.0.1"
